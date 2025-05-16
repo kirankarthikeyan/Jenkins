@@ -15,7 +15,7 @@ pipeline {
                 stage('Clone Repository') {
             steps {
                 echo 'Cloning the Python project...'
-                sh 'git clone https://github.com/shafnajasir234/jenkinspyton.git'
+                sh 'git clone https://github.com/kirankarthikeyan/Jenkins.git'
             }
         }
         stage('Setup Virtual Environment') {
